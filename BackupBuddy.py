@@ -22,7 +22,7 @@ src.pack()
 bottom_frame = tk.Frame(window, pady="10")
 bottom_frame.pack()
 
-dst_label = tk.Label(bottom_frame, pady="10", text="Enter the Destination")
+dst_label = tk.Label(bottom_frame, pady="10", text="Enter the Destination and Directory you would like to create")
 dst_label.pack()
 
 dst = tk.Entry(bottom_frame, width="70")
