@@ -4,7 +4,7 @@ import shutil
 def on_click():
     source = src.get()
     dest = dst.get()
-    shutil.copy(source,dest)
+    shutil.copytree(source,dest)
 
 window = tk.Tk()
 window.title("Backup Buddy")
